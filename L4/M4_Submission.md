@@ -1,6 +1,6 @@
 ## Problem Statement
   
-  Enhance the software development workflow by integrating automated testing and continuous integration tools to improve code quality and streamline deployment processes.
+Improve software development performance by integrating automated testing and continuous integration tools and streamlining deployment processes to improve code quality.
 
     *Unit Testing:
     
@@ -10,26 +10,27 @@
 ---
 
 ## Approach
-I have taken My wd301 capstone project as an example to showcase this problem statement , 
+I took My wd301 capstone project as an example to illustrate this problem statement.
 
-For unit testing i used jest, its not the first time to use the jest for testing i have already experienced working with it in wd201 and wd301. So i tried to integrate in Sporthive to unit testing but unfortunately it's failing again and again 
-so to not to stop their i worked on e2e testing where as it worked out very well after some good understanding
+GitHub repo I worked on : https://github.com/chandramoulisangabathula01/sporthive/tree/master
 
-first i used Wsl -linux then tried to implement jest and cypress both failed so then i moved to windows after that cypress is working in windows but i am unable to work with jest so for now i would explain importance and advantages of jest 
+For unit testing I used jest, not the first time to use jest for testing which I have already experienced working with on wd201 and wd301. So I tried to get involved in unit testing in Sporthive but unfortunately it failed many times 
+so to not give up on them I worked on e2e testing where as it worked very well after a good understanding
+
+First I used Wsl -linux and then I tried to use jest and cypress both failed so then I moved to windows and since then cypress is working on windows but I can't work with jest work so jest is needed now And I will explain the benefits
 
 ## jest
 ### advantages:
   
-  1.Jest runs tests in parallel and only tests what’s changed, making it fast. It also has features like snapshot testing and built-in code coverage.
+  1.Jest runs tests in parallel and only tests what has changed, making it faster. It also has features like snapshot testing and built-in code coverage.
 
-  2.It’s simple to set up and has a clear, straightforward syntax that makes writing tests easy.
+  2.It is easy to format and has a clear, straightforward syntax that makes writing tests easier.
 
-  3.Jest works seamlessly with React, making it easy to test individual components, including their rendering, props, state changes, and interactions.
+  3.Jest works seamlessly with React, making it easy to test individual components, including their definitions, props, state transitions and interactions.
 
-  4.Jest’s built-in mocking capabilities are helpful for isolating and testing React components without needing external dependencies.
+  4.Jest’s built-in mocking capabilities help to isolate and test React components without the need for external dependencies.
 
-  5.Jest is widely adopted in the React community, meaning there are abundant resources, plugins, and community support.
-
+  5.Jest is widely accepted in the React community, which means that there are many features, plugins, and community support.
   
 ---
 
@@ -48,8 +49,8 @@ These metrics help ensure our tests cover all important parts of your code.
 
 ## Cypress :
 
-Cypress end-to-end (e2e) testing involves testing your entire application from the perspective of a user. It verifies that all components and functionalities work together as expected in a real-world scenario. 
-create tests for your modern web applications, debug them visually, and automatically run them in your continuous integration builds.
+Cypress end-to-end (e2e) testing is testing your entire application from the user’s perspective. It ensures that all components and functionality work together as they do in a real-world environment. 
+Create tests for your modern web applications, debug it visually, and automate your ongoing integration builds.
 
 ### Advantages:
 
@@ -111,8 +112,7 @@ export default defineConfig({
 
 ```     
 
-Basically first i run it in wsl then cypress didn't supported so i switched to windows then everything is smooth and when i open with chrome its not working then i shifted to my default firefox then its working excellent
-
+Basically first I run on wsl then cypress it was not supported so I switched to windows then everything is smooth and when I open with chrome its not working I shifted to my default firefox and then its working fine
 
 ## Proof of my Cypress tests worked:
 
@@ -147,11 +147,11 @@ Basically first i run it in wsl then cypress didn't supported so i switched to w
 
 GitHub Actions is a CI/CD (Continuous Integration/Continuous Deployment) service provided by GitHub that allows you to automate workflows directly within your GitHub repository.
 
-** Automation Platform: ** Enables automation of various tasks, including building, testing, and deploying code.
+**Automation Platform:** Enables automation of various tasks, including building, testing, and deploying code.
 
-** Workflow Automation: ** Defines workflows that are triggered by events, such as code pushes, pull requests, or scheduled times.
+**Workflow Automation:** Defines workflows that are triggered by events, such as code pushes, pull requests, or scheduled times.
 
-** Seamless Integration: ** GitHub Actions is built right into GitHub, so it’s incredibly easy to set up and start using. It’s like having everything in one place without needing to juggle multiple tools.
+**Seamless Integration:** GitHub Actions is built right into GitHub, so it’s incredibly easy to set up and start using. It’s like having everything in one place without needing to juggle multiple tools.
 
 
 ### config of github Actions :
@@ -166,8 +166,7 @@ GitHub Actions is a CI/CD (Continuous Integration/Continuous Deployment) service
 ![final_fail](images/git_action_fail_final.png)
 
 
-Then try to fixed that issues these issues wasn't found in cypress open or run because of timeout session , but when i tried to run in actions then I found its because of delay so i increased time to stop this error to occur .
-
+Now try to make sure that these issues are not visible due to cypress open or run due to timeout session , but when i tried to run in practice i found due to its delay so i increased the time to prevent this error tip.
 
 ## Passing test in Actions:
 
