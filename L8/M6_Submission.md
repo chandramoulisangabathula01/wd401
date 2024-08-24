@@ -17,6 +17,8 @@ I took My wd301 capstone project as an example to illustrate this problem statem
 
 GitHub repo I worked on : https://github.com/chandramoulisangabathula01/sporthive/tree/master
 
+**Video Explination on M6** : https://youtu.be/9QS2QYYkf10
+
 I worked on this project and implemented all the i18n and l10n.
 
 ##  Set Up a Collaborative Translation Tool
